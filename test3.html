@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #9f6fff, #6c5ce7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      width: 800px;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .left {
+      flex: 1;
+      background-color: #00bcd4;
+      color: white;
+      padding: 50px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .left p {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .right {
+      flex: 1;
+      padding: 40px 30px;
+    }
+
+    .right h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px 15px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+
+    form textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    button {
+      background-color: #00bcd4;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #0097a7;
+    }
+
+    .required {
+      color: red;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <h2>Let's Chat</h2>
+      <p>Whether you have a question, want to<br>
+         start a project or simply want to connect.<br><br>
+         Feel free to send me a message in the<br>
+         contact form
+      </p>
+    </div>
+    <div class="right">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Name *" required>
+        <input type="email" placeholder="Email *" required>
+        <input type="text" placeholder="Company">
+        <input type="text" placeholder="Phone">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
