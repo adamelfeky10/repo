@@ -1,0 +1,226 @@
+:root {
+  --night: #131314ff;        
+  --van-dyke: #3D342Eff;     
+  --russet: #7E4B32ff;       
+  --platinum: #E5E2DEff;     
+  --jet: #2D2C2Bff;          
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: poppins, sans-serif; */
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color:var(--night);
+    color: var(--night);
+    display: flex;
+    align-items: center;
+}
+
+nav .active {
+    border-bottom: 1.5px solid #1DB954;
+    padding-bottom: 1.5px;
+    display: inline-block;
+}
+
+
+.w-25 {
+    width: 24.8%;
+    padding: 1.5% 0;
+    margin: auto;
+}
+
+.w-50 {
+    width: 49.7%;
+    padding: 1.5% 0;
+    margin: auto;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+ul {
+    list-style: none;
+    padding-right: 100px;
+}
+
+.nav-item, .nav-icons {
+    width: 19.5%;
+    text-align: center;
+}
+
+.nav-item a, .nav-icons a {
+    text-decoration: none;
+    color: var(--platinum);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.left-side {
+    width: 70%;
+    height: calc(100vh - 70px);
+    background-color: var(--jet);
+    display: flex;
+    align-items: center;
+}
+
+.artist-panel {
+    width: 80%;
+    height: 80%;
+    background-color: var(--russet);
+    margin: 50px auto;
+    padding-left: 60px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+}
+
+.artist-panel img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.artist-info {
+    color: var(--platinum);
+    margin-left: 20px;
+}
+.artist-info p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.artist-info h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+
+.label {
+    color: white;
+    padding: 30px;
+    position: absolute; 
+    bottom: 9%;
+    right: 38%;
+    text-align: right;
+    font-size: 1.2rem; 
+}
+
+.right-side {
+    width: 30%;
+    height: calc(100vh - 70px);
+    background-color: var(--night);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.main {
+  display: flex;
+}
+
+.search-panel {
+    width: 90%;
+    height: auto;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.search-panel input {
+    border: none;
+    font-size: 1rem;
+    color: var(--van-dyke);
+    outline: none;
+    padding: 8px 0;
+}
+.search-panel input::placeholder {
+    color: var(--van-dyke);
+    opacity: 0.7;
+    font-weight: 400;
+}
+.artist {
+    width: 90%;
+    background-color: var(--night);
+    color: var(--platinum);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.artist img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+
+.artists-panel {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.artist img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.artist-text .name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.shaded{
+    background-color: var(--jet);
+}
+
+.customize-btn {
+    margin-top: 15px;
+    background-color: #1db954;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 90%;
+}
