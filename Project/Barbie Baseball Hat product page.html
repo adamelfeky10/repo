@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbie Baseball Hat - Merto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/08/cropped-favicon-1-32x32.png" sizes="32x32">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top py-4 px-3 border-bottom">
+  <div class="container-fluid">
+    <div class="row w-100 align-items-center">
+      
+      <!-- Logo -->
+      <div class="col-lg-2 d-flex justify-content-lg-start justify-content-center ">
+        <a class="navbar-brand" href="#">
+          <img src="https://merto-be87.kxcdn.com/merto/wp-content/themes/merto/images/logo.png" alt="" style="width: 126px;">
+        </a>
+      </div>
+      
+      <!-- Contact + Search -->
+      <div class="col-lg-6 col-12 d-flex align-items-center flex-wrap ">
+        
+        <!-- Contact -->
+        <div class="d-flex align-items-center me-4">
+          <i class="bi bi-telephone fs-4 me-3 "></i>
+          <div>
+            <p class="mb-0 small">Contact Us 24/7</p>
+            <p class="mb-0 fw-bold ">(+92) 3942 7879</p>
+          </div>
+        </div>
+
+ <!-- Search Bar -->
+        <div class="position-relative flex-grow-1" id="search-wrapper">
+          <div class="input-group search-box">
+            <select class="form-select border-end-0">
+              <option style="font-size: 14px;">All Categories</option>
+              <option>Clothing</option>
+              <option>Electronics</option>
+              <option>Accessories</option>
+            </select>
+            <input type="text" class="form-control border-start-0" placeholder="Search for products" id="search-input" style="font-size: 14px;">
+            <button class="btn btn-dark " style="background-color:black ;">
+              <i class="bi bi-search text-white "></i>
+            </button>
+          </div>
+          <!-- Popular search dropdown -->
+          <div class="search-suggestions bg-white shadow rounded p-3 mt-1" style="display: none; position: absolute; width: 100%; z-index: 1000;">
+            <p class="fw-bold mb-2">Popular search</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-dark px-3 py-2">smartphone</span>
+              <span class="badge bg-light text-dark px-3 py-2">tablet</span>
+              <span class="badge bg-light text-dark px-3 py-2">controller</span>
+              <span class="badge bg-light text-dark px-3 py-2">furniture</span>
+              <span class="badge bg-light text-dark px-3 py-2">laptop</span>
+              <span class="badge bg-light text-dark px-3 py-2">playstation</span>
+              <span class="badge bg-light text-dark px-3 py-2">womens fashion</span>
+              <span class="badge bg-light text-dark px-3 py-2">home & decor</span>
+              <span class="badge bg-light text-dark px-3 py-2">camera</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+<!-- Icons -->
+      <div class="col-lg-4 col-12 d-flex justify-content-lg-end justify-content-center mt-2 mt-lg-0">
+
+        <!-- Language -->
+        <div class="dropdown me-2">
+          <button class="btn btn-outline-dark dropdown-toggle btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;" >
+            <img src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/english.png" alt="" class="me-2">English
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button"><img src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/espanol.png" alt="" class="me-2">Español</button></li>
+            <li><button class="dropdown-item" type="button"><img src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/francais.png" alt=""class="me-2">Français</button></li>
+            <li><button class="dropdown-item" type="button"><img src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/portugues.png" alt=""class="me-2">Português</button></li>
+          </ul>
+        </div>
+
+        <!-- Currency -->
+        <div class="dropdown me-4">
+          <button class="btn btn-outline-dark dropdown-toggle btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;">
+            USD
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">EUR</button></li>
+            <li><button class="dropdown-item" type="button">BRL</button></li>
+          </ul>
+        </div>
+
+ <!-- Account -->
+        <div class="text-center me-4 d-flex align-items-center">
+          <i class="fa fa-user me-2"></i>
+          <p class="mb-0 small">Account</p>
+        </div>
+
+        <!-- Cart -->
+        <div class="position-relative me-2">
+          <i class="bi bi-cart" style="font-size: 1.5rem;"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+        </div>
+
+        <!-- Favourites -->
+        <div class="position-relative ms-2">
+          <i class="bi bi-heart" style="font-size: 1.5rem;"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="overlay" id="overlay"></div>
+<!-- Sidebar -->
+<div class="categories-sidebar" id="categoriesSidebar">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item position-relative">
+      <i class="fa fa-tshirt me-2"></i> Fashion
+      <div class="submenu">
+        <div class="submenu-content">
+          <h6>Women</h6>
+          <ul class="list-unstyled">
+            <li>Accessories</li>
+            <li>Blazers</li>
+            <li>Coats & Jackets</li>
+            <li>Dress</li>
+            <li>Shirts</li>
+            <li>Shoes</li>
+            <li>Shorts</li>
+            <li>Skirts</li>
+            <li>Sweatshirts</li>
+            <li>Tops</li>
+          </ul>
+        </div>
+       <div class="submenu-content">
+          <h6>Men</h6>
+          <ul class="list-unstyled">
+            <li>Accessories</li>
+            <li>Cargo Trousers</li>
+            <li>Hoodies</li>
+            <li>Jackets & Coats</li>
+            <li>Jeans</li>
+            <li>Joggers</li>
+            <li>Polo shirts</li>
+            <li>Shirts</li>
+            <li>Shoes</li>
+            <li>Short</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item"><i class="fa fa-mobile me-2"></i> Phone & Tablet</li>
+    <li class="list-group-item"><i class="fa fa-laptop me-2"></i> Laptop & Computer</li>
+    <li class="list-group-item"><i class="fa fa-tv me-2"></i> TV, Audio – Video</li>
+    <li class="list-group-item"><i class="fa fa-camera me-2"></i> Camera & Photo</li>
+    <li class="list-group-item"><i class="fa fa-couch me-2"></i> Home & Decor</li>
+    <li class="list-group-item"><i class="fa fa-heartbeat me-2"></i> Beauty & Health</li>
+    <li class="list-group-item"><i class="fa fa-gamepad me-2"></i> Game Accessories</li>
+    <li class="list-group-item"><i class="fa fa-car me-2"></i> Autopart</li>
+  </ul>
+</div>
+
+
+
+<!-- Top Bar -->
+<div class="P1S2 container-fluid border-bottom">
+  <div class="row w-100 align-items-center px-5">
+    <div class="col-lg-2 d-flex align-items-center text-center border-end" id="shopCategoriesBtn" style="cursor:pointer;">
+      <i class="fa fa-solid fa-list me-2" style="color: #000000;"></i>
+      <p class="mb-0 text-center fw-semibold py-3 red-hover" style="font-size: 14px;">SHOP BY CATEGORIES</p>
+    </div>
+    <div class="col-lg-8 d-flex align-items-center text-center justify-content-center gap-3""> 
+      <div class="dropdown"> 
+        <button class="btn btn-outline-dark dropdown-toggle btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Homepages 
+        </button> 
+        <ul class="dropdown-menu"> 
+          <li><button class="dropdown-item" type="button">Homepage 1</button></li> 
+          <li><button class="dropdown-item" type="button">Homepage 2</button></li> 
+          <li><button class="dropdown-item" type="button">Homepage 3</button></li> 
+          <li><button class="dropdown-item" type="button">Homepage 4</button></li> 
+          <li><button class="dropdown-item" type="button">Homepage 5</button></li> 
+
+        </ul> 
+      </div> 
+      <div class="dropdown"> 
+        <button class="btn btn-outline-dark dropdown-toggle btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Categories 
+        </button> 
+        <ul class="dropdown-menu"> 
+          <li><button class="dropdown-item" type="button">Fashion</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Makeup</button>
+          </li>
+          <li><button class="dropdown-item" type="button">Fashion</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Makeup</button>
+          </li>
+          <li><button class="dropdown-item" type="button">Fashion</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Makeup</button>
+          </li> 
+        </ul> 
+      </div> 
+      <div class="dropdown"> <button class="btn btn-outline-dark dropdown-toggle btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+            Products 
+          </button> 
+          <ul class="dropdown-menu"> 
+            <li><button class="dropdown-item" type="button">Simple product</button>
+            </li> 
+            <li><button class="dropdown-item" type="button">Group product</button>
+            </li> 
+            <li><button class="dropdown-item" type="button">External product</button>
+            </li> 
+          </ul> 
+        </div> 
+        <div class="dropdown"> <button class="btn btn-outline-dark dropdown-toggle btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Pages 
+        </button> 
+        <ul class="dropdown-menu"> 
+          <li><button class="dropdown-item" type="button">Homepages</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Shop</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Automative</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Others</button>
+          </li> 
+        </ul> 
+      </div> 
+      <div class="dropdown"> <button class="btn btn-outline-dark btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+            About Us 
+          </button> 
+        </div> 
+        <div class="dropdown"> <button class="btn btn-outline-dark btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Blog
+         </button> 
+        </div> 
+        <div class="dropdown"> <button class="btn btn-outline-dark btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Best discounts 
+        </button> 
+      </div> 
+    </div> 
+    <div class="col-lg-2 d-flex align-items-center text-center justify-content-end gap-3"> 
+      <div class="dropdown"> <button class="btn btn-outline-dark btn-sm dropdown-toggle red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+        Recently Viewed 
+      </button> 
+    </div> 
+  </div> 
+</div> 
+</div>
+
+
+
+
+
+
+
+
+
+<div class="overlay" id="overlay"></div>
+<!-- Sidebar -->
+<div class="categories-sidebar" id="categoriesSidebar">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item position-relative">
+      <i class="fa fa-tshirt me-2"></i> Fashion
+      <div class="submenu">
+        <div class="submenu-content">
+          <h6>Women</h6>
+          <ul class="list-unstyled">
+            <li>Accessories</li>
+            <li>Blazers</li>
+            <li>Coats & Jackets</li>
+            <li>Dress</li>
+            <li>Shirts</li>
+            <li>Shoes</li>
+            <li>Shorts</li>
+            <li>Skirts</li>
+            <li>Sweatshirts</li>
+            <li>Tops</li>
+          </ul>
+        </div>
+        <div class="submenu-content">
+          <h6>Men</h6>
+          <ul class="list-unstyled">
+            <li>Accessories</li>
+            <li>Cargo Trousers</li>
+            <li>Hoodies</li>
+            <li>Jackets & Coats</li>
+            <li>Jeans</li>
+            <li>Joggers</li>
+            <li>Polo shirts</li>
+            <li>Shirts</li>
+            <li>Shoes</li>
+            <li>Short</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item"><i class="fa fa-mobile me-2"></i> Phone & Tablet</li>
+    <li class="list-group-item"><i class="fa fa-laptop me-2"></i> Laptop & Computer</li>
+    <li class="list-group-item"><i class="fa fa-tv me-2"></i> TV, Audio – Video</li>
+    <li class="list-group-item"><i class="fa fa-camera me-2"></i> Camera & Photo</li>
+    <li class="list-group-item"><i class="fa fa-couch me-2"></i> Home & Decor</li>
+    <li class="list-group-item"><i class="fa fa-heartbeat me-2"></i> Beauty & Health</li>
+    <li class="list-group-item"><i class="fa fa-gamepad me-2"></i> Game Accessories</li>
+    <li class="list-group-item"><i class="fa fa-car me-2"></i> Autopart</li>
+  </ul>
+</div>
+
+    <div class="container-fluid py-3">
+  <div class="container">
+    <div class="d-flex flex-column">
+      <div class="d-flex align-items-center gap-1 flex-wrap">
+        <a href="#" class="small text-decoration-none text-dark">&nbsp;Home &nbsp;</a>
+        <i class="fas fa-chevron-right small text-muted"></i>
+        <a href="#" class="small text-decoration-none text-dark">&nbsp;Shop &nbsp;</a>
+        <i class="fas fa-chevron-right small text-muted"></i>
+        <a href="#" class="small text-decoration-none text-dark">&nbsp;Fashion &nbsp;</a>
+        <i class="fas fa-chevron-right small text-muted"></i>
+        <a href="#" class="small text-decoration-none text-dark">&nbsp;Women &nbsp;</a>
+        <i class="fas fa-chevron-right small text-muted"></i>
+        <a href="#" class="small text-decoration-none text-dark">&nbsp;Shorts &nbsp;</a>
+        <i class="fas fa-chevron-right small text-muted"></i>
+        <a href="#" class="small text-decoration-none grey-txt">&nbsp;Barbie Baseball Hat Cap Berkshire Fashions New</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="row p-5">
+      <!-- Product Gallery -->
+      <div class="col-lg-6">
+        <div class="row mb-3">
+          <div class="col-2">
+            <div class="d-flex flex-column gap-3">
+              <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-1-100x100.jpg" class="product-gallery-thumbnail active rounded-2" alt="Thumbnail 1">
+              <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-3-100x100.jpg" class="product-gallery-thumbnail rounded-2" alt="Thumbnail 2">
+              <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-1-100x100.jpg" class="product-gallery-thumbnail rounded-2" alt="Thumbnail 3">
+              <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-3-100x100.jpg" class="product-gallery-thumbnail rounded-2" alt="Thumbnail 4">
+            </div>
+          </div>
+          <div class="col-10">
+            <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-1.jpg" class="img-fluid product-main-image border rounded-2" alt="Barbie Baseball Hat">
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Info -->
+      <div class="col-lg-6 px-5">
+        <p class="grey-txt fs-6">Zara</p>
+        <h1 class="product-title">Barbie Baseball Hat Cap Berkshire Fashions New</h1>
+        
+        <div class="d-flex align-items-center mb-3">
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="product-review-count">(0 reviews)</span>
+          <span class="grey-txt text-decoration-underline px-2">Write a review</span>
+        </div>
+
+        <div class=" align-items-center mb-3">
+          <div class="d-flex">
+            <i class="fa-solid fa-check text-success px-2"></i> 
+            <p class="black-subtitle">Unique Design</p>
+          </div>
+          <div class="d-flex">
+            <i class="fa-solid fa-check text-success px-2"></i> 
+            <p class="black-subtitle">Premium Material</p>
+          </div>
+          <div class="d-flex">
+            <i class="fa-solid fa-check text-success px-2"></i> 
+            <p class="black-subtitle">Classic & Versatile</p>
+          </div>
+        
+        </div>
+        <div class="align-items-center mb-3">
+          <p class="product-title">$12</p>
+        </div>
+
+        <div class="align-items-center mb-3 rounded-2" style="width: 100px; background-color: lightgray;">
+          <p class="text-success text-center">In stock</p>
+        </div>
+        <div class="d-flex align-items-center mb-4">
+          <div class="me-3">
+            <div class="input-group" style="width: 140px;">
+              <button class="btn btn-outline-secondary" type="button">-</button>
+              <input type="text" class="form-control quantity-input" value="1">
+              <button class="btn btn-outline-secondary" type="button">+</button>
+            </div>
+          </div>
+          <button class="btn btn-dark me-3 rounded-1" style="background-color: black; width: 150px;">+Add to Cart</button>
+          <button class="btn btn-dark me-3 rounded-1" style="background-color: rgba(222, 16, 16, 1); width: 150px;">BUY NOW</button>
+        </div>
+        <div class="align-items-center mb-3">
+          <div class="d-flex">
+            <div class="d-flex mx-2">
+              <i class="fa-regular fa-heart grey-txt mx-2"></i>
+              <p class="grey-txt">Add to Wishlist</p>
+            </div>
+            <div class="d-flex mx-2">
+              <i class="fa-solid fa-repeat grey-txt mx-2"></i>
+              <p class="grey-txt ">Add to Compare</p>
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="product-meta mb-4">
+          <div class="mb-2 grey-txt">SKU: <span class="black-subtitle">HAT-BAR-001</span></div>
+          <div class="mb-2 grey-txt">Category: <span class="black-subtitle">Hats, Fashion</span></div>
+        </div>
+        
+        <div class="d-flex">
+          <button class="btn btn-outline-dark me-2" style="border: none;"><i class="fab fa-facebook-f"></i></button>
+          <button class="btn btn-outline-dark me-2" style="border: none;"><i class="fab fa-pinterest"></i></button>
+          <button class="btn btn-outline-dark me-2" style="border: none;"><i class="fab fa-x-twitter"></i></button>
+          <button class="btn btn-outline-dark" style="border: none;"><i class="fa-brands fa-linkedin-in"></i></button>
+        </div>
+      </div>
+    </div>
+
+
+ <!-- Advertisement Banner Section -->
+<div class="ads-banner ts-custom-block-content my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="banner-content text-center p-4 p-md-5 position-relative" style="background-image: url('https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/payments-2-1.png'); background-size: cover; background-position: center;">
+          <div class="banner-overlay position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3);"></div>
+          <div class="position-relative z-index-1 text-white">
+            <h3 class="banner-title mb-3 text-dark">Earn Cash Back For The Things You Buy Every Where</h3>
+            <p class="banner-text mb-4 text-dark">Application via Merto. Terms & Conditions.</p>
+            <a href="#" class="btn btn-success px-4 py-2">VIEW MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Product Tabs -->
+<!-- Product Tabs Section -->
+<div class="product-tabs-container mt-5 mx-5 border-bottom">
+  <ul class="nav product-tabs" id="productTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active " id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab">Description</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab">Specifications</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="shipping-tab" data-bs-toggle="tab" data-bs-target="#shipping" type="button" role="tab">Reviews</button>
+    </li>
+  </ul>
+  
+  <div class="tab-content product-tab-content pt-4" id="productTabContent">
+    <div class="tab-pane fade show active" id="description" role="tabpanel">
+      Compellingly grow performance based mindshare through parallel potentialities. Rapidiously underwhelm top-line catalysts for change before best-of-breed materials. Competently brand timely catalysts for change through sustainable systems. Completely expedite ubiquitous bandwidth after integrated action items. Progressively transform leading-edge supply chains whereas flexible niche markets.
+    </div>
+    
+    <div class="tab-pane fade" id="reviews" role="tabpanel">
+      Compellingly grow performance based mindshare through parallel potentialities. Rapidiously underwhelm top-line catalysts for change before best-of-breed materials. Competently brand timely catalysts for change through sustainable systems. Completely expedite ubiquitous bandwidth after integrated action items. Progressively transform leading-edge supply chains whereas flexible niche markets.
+    </div>
+    
+    <div class="tab-pane fade" id="shipping" role="tabpanel">
+      Compellingly grow performance based mindshare through parallel potentialities. Rapidiously underwhelm top-line catalysts for change before best-of-breed materials. Competently brand timely catalysts for change through sustainable systems. Completely expedite ubiquitous bandwidth after integrated action items. Progressively transform leading-edge supply chains whereas flexible niche markets.
+    </div>
+  </div>
+</div>
+
+
+<div class="related-products my-5">
+  <div class="container">
+    <h3 class=" mb-4">Related products</h3>
+    <div class="related-products-carousel owl-carousel owl-theme">
+
+  
+      <div class="product-card">
+        <span class="badge-sale">-34%</span>
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Athletics Hoodie">
+        <h4 class="product-title">Athletics Embroidered Relaxed Hoodie</h4>
+        <p class="product-price">$79 – $89</p>
+      </div>
+
+      <div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+<div class="product-card">
+        <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-15-4-300x300.jpg" alt="Nike Air Force 1">
+        <h4 class="product-title">Nike Air Force 1 ’07 'Spray Paint Swoosh'</h4>
+        <p class="product-price">$156</p>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+  <footer class="py-5 px-4" style="background-color: #1B1F22;"> 
+  <div class="d-flex row w-100"> 
+  <div class="col-lg-3"> 
+  <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/logo.png" alt="" class="f-logo ms-1 py-3" style="width: 126px;"> 
+  <div class="d-flex gap-2"> 
+  <i class="fa-solid fa-location-dot" style="color: rgba(132, 132, 132, 1);"></i> 
+  <p class="grey-txt"> 29 SE 2nd Ave, Miami Florida <br>33131, United States</p> 
+  </div>
+  <div class="d-flex gap-2"> 
+  <i class="fa-regular fa-envelope" style="color: rgba(132, 132, 132, 1);"></i> 
+  <p class="grey-txt"> info@example.com</p>
+  </div>
+  <p style="color: white;" class="fs-5 fw-semibold">(+92) 3942 7879</p> 
+  </div> 
+  <div class="col-lg-2 py-3">
+  <h6 style="color: white;" class="pb-3">SHOPPING</h6>
+  <p class="list red-hover">Wishlist</p> 
+  <p class="list red-hover">Shop by Brands</p> 
+  <p class="list red-hover">Offers</p> 
+  <p class="list red-hover">Track order</p> 
+  <p class="list red-hover">Size Guide</p> 
+  </div> <div class="col-lg-2 py-3"> 
+  <h6 style="color: white;"class="pb-3">INFORMATION</h6> 
+  <p class="list red-hover">Track Order</p> 
+  <p class="list red-hover">Shipping & Return</p> 
+  <p class="list red-hover">About us</p> 
+  <p class="list red-hover">Help</p> 
+  <p class="list red-hover">Gift Cards</p> 
+  </div> 
+  <div class="col-lg-2 py-3"> 
+  <h6 style="color: white;" class="pb-3">ACCOUNT</h6> 
+  <p class="list red-hover">Cart</p> 
+  <p class="list red-hover">My Account</p> 
+  <p class="list red-hover">My orders</p> 
+  <p class="list red-hover">Wishlist</p> 
+  <p class="list red-hover">Affiliate Program</p> 
+  </div>
+  <div class="col-lg-3 py-3">
+  <p style="color: white;" class="fs-5 fw-semibold pb-3">Let's keep in touch</p>
+  <div class="d-flex input-with-icon pb-4"> 
+  <input type="email" class="f-input" placeholder="enter your email address" required> 
+  <i class="fa-solid fa-arrow-right"></i> 
+  </div>
+  <div class="d-flex gap-3 mx-auto"> 
+  <i class="fa-brands fa-facebook-f icon text-light red-hover"></i> 
+  <i class="fa-brands fa-tiktok icon text-light red-hover"></i> 
+  <i class="fa-brands fa-x-twitter icon text-light red-hover"></i> 
+  <i class="fa-brands fa-youtube icon text-light red-hover"></i> 
+  <i class="fa-brands fa-instagram icon text-light red-hover"></i> 
+  </div> 
+  </div> 
+  <div class="container"> 
+  <div class="row w-100 justify-content-center"> 
+  <div class="col-lg-11 py-2 rounded-1 " style="border: #ffffff1a 1px solid;"> 
+  <div class="row d-flex py-3 px-4"> 
+  <div class="col-lg-4 mb-3"> 
+  <div class="d-flex gap-2"> 
+  <i class="fa-solid fa-phone fs-3 white mt-2"></i> 
+  <div>
+  <p class="fs-6 fw-semibold my-0 white">Didn't find what you were looking for?</p> 
+  <span class="list mb-0 text-decoration-underline">Contact Us</span>
+  </div>
+  </div> 
+  </div>
+  <div class="col-lg-4 mb-3"> <div class="d-flex gap-2"> 
+  <i class="fa-regular fa-face-smile fs-3 white mt-2"></i> 
+  <div>
+      <p class="fs-6 fw-semibold my-0 white">How can we help you today?</p> 
+      <span class="list mb-0 text-decoration-underline">Help Center</span> 
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-4 mb-3">
+        <div class="d-flex gap-2"> 
+        <i class="fa-solid fa-comment-dots fs-3 white mt-2"></i> 
+        <div> 
+          <p class="fs-6 fw-semibold my-0 white">We’d love to hear what you think!</p> 
+          <span class="list mb-0 text-decoration-underline">Give Feedback</span> 
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div> 
+      </div> 
+      <div class="container d-flex justify-content-between align-items-center pt-5">
+          <p class="grey-txt mb-0">Copyright © Merto. All Rights Reserved</p>
+          <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/payment-icons-1.png" alt="" class="payment-icons">
+          </div>
+          </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

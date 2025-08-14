@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Us – Merto </title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/fontawesome-free-7.0.0-web/fontawesome-free-7.0.0-web/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/08/cropped-favicon-1-32x32.png" sizes="32x32">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top py-4 px-3 border-bottom">
+  <div class="container-fluid">
+    <div class="row w-100 align-items-center">
+      
+      <!-- Logo -->
+      <div class="col-lg-2 d-flex justify-content-lg-start justify-content-center ">
+        <a class="navbar-brand" href="#">
+          <img src="https://merto-be87.kxcdn.com/merto/wp-content/themes/merto/images/logo.png" alt="" style="width: 126px;">
+        </a>
+      </div>
+      
+      <!-- Contact + Search -->
+      <div class="col-lg-6 col-12 d-flex align-items-center flex-wrap ">
+        
+        <!-- Contact -->
+        <div class="d-flex align-items-center me-4">
+          <i class="bi bi-telephone fs-4 me-3 "></i>
+          <div>
+            <p class="mb-0 small">Contact Us 24/7</p>
+            <p class="mb-0 fw-bold ">(+92) 3942 7879</p>
+          </div>
+        </div>
+
+ <!-- Search Bar -->
+        <div class="position-relative flex-grow-1" id="search-wrapper">
+          <div class="input-group search-box">
+            <select class="form-select border-end-0">
+              <option style="font-size: 14px;">All Categories</option>
+              <option>Clothing</option>
+              <option>Electronics</option>
+              <option>Accessories</option>
+            </select>
+            <input type="text" class="form-control border-start-0" placeholder="Search for products" id="search-input" style="font-size: 14px;">
+            <button class="btn btn-dark " style="background-color:black ;">
+              <i class="bi bi-search text-white "></i>
+            </button>
+          </div>
+          <!-- Popular search dropdown -->
+          <div class="search-suggestions bg-white shadow rounded p-3 mt-1" style="display: none; position: absolute; width: 100%; z-index: 1000;">
+            <p class="fw-bold mb-2">Popular search</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-dark px-3 py-2">smartphone</span>
+              <span class="badge bg-light text-dark px-3 py-2">tablet</span>
+              <span class="badge bg-light text-dark px-3 py-2">controller</span>
+              <span class="badge bg-light text-dark px-3 py-2">furniture</span>
+              <span class="badge bg-light text-dark px-3 py-2">laptop</span>
+              <span class="badge bg-light text-dark px-3 py-2">playstation</span>
+              <span class="badge bg-light text-dark px-3 py-2">womens fashion</span>
+              <span class="badge bg-light text-dark px-3 py-2">home & decor</span>
+              <span class="badge bg-light text-dark px-3 py-2">camera</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+<!-- Icons -->
+      <div class="col-lg-4 col-12 d-flex justify-content-lg-end justify-content-center mt-2 mt-lg-0">
+
+        <!-- Language -->
+        <div class="dropdown me-2">
+          <button class="btn btn-outline-dark dropdown-toggle btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;" >
+            <img src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/english.png" alt="" class="me-2">English
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button"><img src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/espanol.png" alt="" class="me-2">Español</button></li>
+            <li><button class="dropdown-item" type="button"><img src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/francais.png" alt=""class="me-2">Français</button></li>
+            <li><button class="dropdown-item" type="button"><img src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/portugues.png" alt=""class="me-2">Português</button></li>
+          </ul>
+        </div>
+
+        <!-- Currency -->
+        <div class="dropdown me-4">
+          <button class="btn btn-outline-dark dropdown-toggle btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;">
+            USD
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">EUR</button></li>
+            <li><button class="dropdown-item" type="button">BRL</button></li>
+          </ul>
+        </div>
+
+ <!-- Account -->
+        <div class="text-center me-4 d-flex align-items-center">
+          <i class="fa fa-user me-2"></i>
+          <p class="mb-0 small">Account</p>
+        </div>
+
+        <!-- Cart -->
+        <div class="position-relative me-2">
+          <i class="bi bi-cart" style="font-size: 1.5rem;"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+        </div>
+
+        <!-- Favourites -->
+        <div class="position-relative ms-2">
+          <i class="bi bi-heart" style="font-size: 1.5rem;"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="overlay" id="overlay"></div>
+<!-- Sidebar -->
+<div class="categories-sidebar" id="categoriesSidebar">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item position-relative">
+      <i class="fa fa-tshirt me-2"></i> Fashion
+      <div class="submenu">
+        <div class="submenu-content">
+          <h6>Women</h6>
+          <ul class="list-unstyled">
+            <li>Accessories</li>
+            <li>Blazers</li>
+            <li>Coats & Jackets</li>
+            <li>Dress</li>
+            <li>Shirts</li>
+            <li>Shoes</li>
+            <li>Shorts</li>
+            <li>Skirts</li>
+            <li>Sweatshirts</li>
+            <li>Tops</li>
+          </ul>
+        </div>
+       <div class="submenu-content">
+          <h6>Men</h6>
+          <ul class="list-unstyled">
+            <li>Accessories</li>
+            <li>Cargo Trousers</li>
+            <li>Hoodies</li>
+            <li>Jackets & Coats</li>
+            <li>Jeans</li>
+            <li>Joggers</li>
+            <li>Polo shirts</li>
+            <li>Shirts</li>
+            <li>Shoes</li>
+            <li>Short</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item"><i class="fa fa-mobile me-2"></i> Phone & Tablet</li>
+    <li class="list-group-item"><i class="fa fa-laptop me-2"></i> Laptop & Computer</li>
+    <li class="list-group-item"><i class="fa fa-tv me-2"></i> TV, Audio – Video</li>
+    <li class="list-group-item"><i class="fa fa-camera me-2"></i> Camera & Photo</li>
+    <li class="list-group-item"><i class="fa fa-couch me-2"></i> Home & Decor</li>
+    <li class="list-group-item"><i class="fa fa-heartbeat me-2"></i> Beauty & Health</li>
+    <li class="list-group-item"><i class="fa fa-gamepad me-2"></i> Game Accessories</li>
+    <li class="list-group-item"><i class="fa fa-car me-2"></i> Autopart</li>
+  </ul>
+</div>
+
+
+
+<!-- Top Bar -->
+<div class="P1S2 container-fluid border-bottom">
+  <div class="row w-100 align-items-center px-5">
+    <div class="col-lg-2 d-flex align-items-center text-center border-end" id="shopCategoriesBtn" style="cursor:pointer;">
+      <i class="fa fa-solid fa-list me-2" style="color: #000000;"></i>
+      <p class="mb-0 text-center fw-semibold py-3 red-hover" style="font-size: 14px;">SHOP BY CATEGORIES</p>
+    </div>
+    <div class="col-lg-8 d-flex align-items-center text-center justify-content-center gap-3""> 
+      <div class="dropdown"> 
+        <button class="btn btn-outline-dark dropdown-toggle btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Homepages 
+        </button> 
+        <ul class="dropdown-menu"> 
+          <li><button class="dropdown-item" type="button">Homepage 1</button></li> 
+          <li><button class="dropdown-item" type="button">Homepage 2</button></li> 
+          <li><button class="dropdown-item" type="button">Homepage 3</button></li> 
+          <li><button class="dropdown-item" type="button">Homepage 4</button></li> 
+          <li><button class="dropdown-item" type="button">Homepage 5</button></li> 
+
+        </ul> 
+      </div> 
+      <div class="dropdown"> 
+        <button class="btn btn-outline-dark dropdown-toggle btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Categories 
+        </button> 
+        <ul class="dropdown-menu"> 
+          <li><button class="dropdown-item" type="button">Fashion</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Makeup</button>
+          </li>
+          <li><button class="dropdown-item" type="button">Fashion</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Makeup</button>
+          </li>
+          <li><button class="dropdown-item" type="button">Fashion</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Makeup</button>
+          </li> 
+        </ul> 
+      </div> 
+      <div class="dropdown"> <button class="btn btn-outline-dark dropdown-toggle btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+            Products 
+          </button> 
+          <ul class="dropdown-menu"> 
+            <li><button class="dropdown-item" type="button">Simple product</button>
+            </li> 
+            <li><button class="dropdown-item" type="button">Group product</button>
+            </li> 
+            <li><button class="dropdown-item" type="button">External product</button>
+            </li> 
+          </ul> 
+        </div> 
+        <div class="dropdown"> <button class="btn btn-outline-dark dropdown-toggle btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Pages 
+        </button> 
+        <ul class="dropdown-menu"> 
+          <li><button class="dropdown-item" type="button">Homepages</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Shop</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Automative</button>
+          </li> 
+          <li><button class="dropdown-item" type="button">Others</button>
+          </li> 
+        </ul> 
+      </div> 
+      <div class="dropdown"> <button class="btn btn-outline-dark btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+            About Us 
+          </button> 
+        </div> 
+        <div class="dropdown"> <button class="btn btn-outline-dark btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Blog
+         </button> 
+        </div> 
+        <div class="dropdown"> <button class="btn btn-outline-dark btn-sm red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+          Best discounts 
+        </button> 
+      </div> 
+    </div> 
+    <div class="col-lg-2 d-flex align-items-center text-center justify-content-end gap-3"> 
+      <div class="dropdown"> <button class="btn btn-outline-dark btn-sm dropdown-toggle red-hover" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;"> 
+        Recently Viewed 
+      </button> 
+    </div> 
+  </div> 
+</div> 
+</div>
+
+
+
+
+
+
+
+
+
+<div class="overlay" id="overlay"></div>
+<!-- Sidebar -->
+<div class="categories-sidebar" id="categoriesSidebar">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item position-relative">
+      <i class="fa fa-tshirt me-2"></i> Fashion
+      <div class="submenu">
+        <div class="submenu-content">
+          <h6>Women</h6>
+          <ul class="list-unstyled">
+            <li>Accessories</li>
+            <li>Blazers</li>
+            <li>Coats & Jackets</li>
+            <li>Dress</li>
+            <li>Shirts</li>
+            <li>Shoes</li>
+            <li>Shorts</li>
+            <li>Skirts</li>
+            <li>Sweatshirts</li>
+            <li>Tops</li>
+          </ul>
+        </div>
+        <div class="submenu-content">
+          <h6>Men</h6>
+          <ul class="list-unstyled">
+            <li>Accessories</li>
+            <li>Cargo Trousers</li>
+            <li>Hoodies</li>
+            <li>Jackets & Coats</li>
+            <li>Jeans</li>
+            <li>Joggers</li>
+            <li>Polo shirts</li>
+            <li>Shirts</li>
+            <li>Shoes</li>
+            <li>Short</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item"><i class="fa fa-mobile me-2"></i> Phone & Tablet</li>
+    <li class="list-group-item"><i class="fa fa-laptop me-2"></i> Laptop & Computer</li>
+    <li class="list-group-item"><i class="fa fa-tv me-2"></i> TV, Audio – Video</li>
+    <li class="list-group-item"><i class="fa fa-camera me-2"></i> Camera & Photo</li>
+    <li class="list-group-item"><i class="fa fa-couch me-2"></i> Home & Decor</li>
+    <li class="list-group-item"><i class="fa fa-heartbeat me-2"></i> Beauty & Health</li>
+    <li class="list-group-item"><i class="fa fa-gamepad me-2"></i> Game Accessories</li>
+    <li class="list-group-item"><i class="fa fa-car me-2"></i> Autopart</li>
+  </ul>
+</div>
+
+<div class="P2S1 container-fluid px-3 py-5">
+  <div class="row w-100 align-items-center px-5">
+    <div class="justify-content-center text-center pt-3" style="line-height: 70px; font-size: 50px; font-weight: 600; color: #000000;">
+      Contact us
+    </div>
+    <div class="justify-content-center text-center pt-1" style="color: rgba(132, 132, 132, 1); font-size: small;">
+      34 Main Street, Los Angeles 9021<br>United States
+    </div>
+  </div>
+</div>
+
+
+
+<div class="P2S2 container-fluid px-3 py-3">
+  <div class="row w-100 align-items-center px-5">
+    <div class="d-flex justify-content-center">
+
+      <div class="col-lg-2">
+        <i class="fa fa-solid fa-phone-volume fs-3"></i>
+        <div>
+          <p class="pt-3 fw-semibold" style="line-height: 1; font-size: 14px;">Customer service</p>
+          <p class="fw-normal text-decoration-underline black-subtitle red-hover">92 3942 7879</p>
+          <p class="grey-txt">Call us from 8am to 8pm</p>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <i class="fa-regular fa-message fs-3"></i>
+        <div>
+          <p class="pt-3 fw-semibold" style="line-height: 1; font-size: 14px;">Chat with us</p>
+          <p class="fw-normal text-decoration-underline black-subtitle red-hover">Live Chat</p>
+          <p class="grey-txt">Daily: 8 am to 11 pm</p>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <i class="fa-regular fa-envelope fs-3"></i>
+        <div>
+          <p class="pt-3 fw-semibold" style="line-height: 1; font-size: 14px;">Write to us</p>
+          <p class="fw-normal text-decoration-underline black-subtitle red-hover">contact@example.com</p>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <i class="fa-solid fa-user-plus fs-3"></i>
+        <p class="pt-3 fw-semibold" style="line-height: 1; font-size: 14px;">Follow us</p>
+        <p>
+          <i class="fa-brands fa-facebook-f icon"></i>
+          <i class="fa-brands fa-tiktok icon"></i>
+          <i class="fa-brands fa-youtube icon"></i>
+          <i class="fa-brands fa-x-twitter icon"></i>
+          <i class="fa-brands fa-instagram icon"></i>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<section class="py-5 text-center P2S3" style="margin-bottom:3%;">
+  <div class="container">
+    <h2 class="fw-semibold mb-5 black-header text-center">Do you have some questions?</h2>
+    <form>
+      <div class="row g-3 mx-5">
+        <div class="col-md-6">
+          <input type="text" class="form-control custom-input" placeholder="Name and Surname *" required>
+        </div>
+        <div class="col-lg-6">
+          <input type="email" class="form-control custom-input" placeholder="Email *" required>
+        </div>
+        <div class="col-12">
+          <input type="text" class="form-control custom-input" placeholder="Subject *" required>
+        </div>
+        <div class="col-12">
+          <textarea class="form-control custom-input" rows="5" placeholder="Message"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-dark w-100 fw-bold py-3 GET" style="font-size: 14px;">GET IN TOUCH</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+
+<div class="pb-4">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26444.959532659745!2d-118.248973!3d34.053619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1754954426640!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+
+<section class="py-5 P2S3" style="margin-bottom:3%;">
+  <div class="row w-100 align-items-center px-5">
+    <div class="justify-content-center">
+      <h3 class="lh-1 pb-3 black-header text-center">Stores around the world</h3>
+
+      <div class="d-flex gap-3">
+        <div class="card col-lg-4 justify-content-lg-start py-3" style="border: none;">
+          <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/about-2.jpg" alt="" class="rounded-2 pb-3">
+          <h4 class="cities">Los Angeles</h4>
+          <p class="grey-txt">34 Main Street, Los Angeles 9021 <br> United States</p>
+          <p class="black-subtitle">+02 1234 567 88</p>
+        </div>
+
+        <div class="card col-lg-4 justify-content-lg-start py-3" style="border: none;">
+          <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/about-3.jpg" alt="" class="rounded-2 pb-3">
+          <h4 class="cities">New York</h4>
+          <p class="grey-txt">515 Broadway 10015 New York<br> United States</p>
+          <p class="black-subtitle">+49 1234 567 88</p>
+        </div>
+
+        <div class="card col-lg-4 justify-content-lg-start py-3" style="border: none;">
+          <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/about-4.jpg" alt="" class="rounded-2 pb-3">
+          <h4 class="cities">California</h4>
+          <p class="grey-txt">1000 California St 68114 Omaha<br> United States</p>
+          <p class="black-subtitle">+44 1234 567 88</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <footer class="py-5 px-4" style="background-color: #1B1F22;"> 
+  <div class="d-flex row w-100"> 
+  <div class="col-lg-3"> 
+  <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/logo.png" alt="" class="f-logo ms-1 py-3" style="width: 126px;"> 
+  <div class="d-flex gap-2"> 
+  <i class="fa-solid fa-location-dot" style="color: rgba(132, 132, 132, 1);"></i> 
+  <p class="grey-txt"> 29 SE 2nd Ave, Miami Florida <br>33131, United States</p> 
+  </div>
+  <div class="d-flex gap-2"> 
+  <i class="fa-regular fa-envelope" style="color: rgba(132, 132, 132, 1);"></i> 
+  <p class="grey-txt"> info@example.com</p>
+  </div>
+  <p style="color: white;" class="fs-5 fw-semibold">(+92) 3942 7879</p> 
+  </div> 
+  <div class="col-lg-2 py-3">
+  <h6 style="color: white;" class="pb-3">SHOPPING</h6>
+  <p class="list red-hover">Wishlist</p> 
+  <p class="list red-hover">Shop by Brands</p> 
+  <p class="list red-hover">Offers</p> 
+  <p class="list red-hover">Track order</p> 
+  <p class="list red-hover">Size Guide</p> 
+  </div> <div class="col-lg-2 py-3"> 
+  <h6 style="color: white;"class="pb-3">INFORMATION</h6> 
+  <p class="list red-hover">Track Order</p> 
+  <p class="list red-hover">Shipping & Return</p> 
+  <p class="list red-hover">About us</p> 
+  <p class="list red-hover">Help</p> 
+  <p class="list red-hover">Gift Cards</p> 
+  </div> 
+  <div class="col-lg-2 py-3"> 
+  <h6 style="color: white;" class="pb-3">ACCOUNT</h6> 
+  <p class="list red-hover">Cart</p> 
+  <p class="list red-hover">My Account</p> 
+  <p class="list red-hover">My orders</p> 
+  <p class="list red-hover">Wishlist</p> 
+  <p class="list red-hover">Affiliate Program</p> 
+  </div>
+  <div class="col-lg-3 py-3">
+  <p style="color: white;" class="fs-5 fw-semibold pb-3">Let's keep in touch</p>
+  <div class="d-flex input-with-icon pb-4"> 
+  <input type="email" class="f-input" placeholder="enter your email address" required> 
+  <i class="fa-solid fa-arrow-right"></i> 
+  </div>
+  <div class="d-flex gap-3 mx-auto"> 
+  <i class="fa-brands fa-facebook-f icon text-light red-hover"></i> 
+  <i class="fa-brands fa-tiktok icon text-light red-hover"></i> 
+  <i class="fa-brands fa-x-twitter icon text-light red-hover"></i> 
+  <i class="fa-brands fa-youtube icon text-light red-hover"></i> 
+  <i class="fa-brands fa-instagram icon text-light red-hover"></i> 
+  </div> 
+  </div> 
+  <div class="container"> 
+  <div class="row w-100 justify-content-center"> 
+  <div class="col-lg-11 py-2 rounded-1 " style="border: #ffffff1a 1px solid;"> 
+  <div class="row d-flex py-3 px-4"> 
+  <div class="col-lg-4 mb-3"> 
+  <div class="d-flex gap-2"> 
+  <i class="fa-solid fa-phone fs-3 white mt-2"></i> 
+  <div>
+  <p class="fs-6 fw-semibold my-0 white">Didn't find what you were looking for?</p> 
+  <span class="list mb-0 text-decoration-underline">Contact Us</span>
+  </div>
+  </div> 
+  </div>
+  <div class="col-lg-4 mb-3"> <div class="d-flex gap-2"> 
+  <i class="fa-regular fa-face-smile fs-3 white mt-2"></i> 
+  <div>
+      <p class="fs-6 fw-semibold my-0 white">How can we help you today?</p> 
+      <span class="list mb-0 text-decoration-underline">Help Center</span> 
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-4 mb-3">
+        <div class="d-flex gap-2"> 
+        <i class="fa-solid fa-comment-dots fs-3 white mt-2"></i> 
+        <div> 
+          <p class="fs-6 fw-semibold my-0 white">We’d love to hear what you think!</p> 
+          <span class="list mb-0 text-decoration-underline">Give Feedback</span> 
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div> 
+      </div> 
+      <div class="container d-flex justify-content-between align-items-center pt-5">
+          <p class="grey-txt mb-0">Copyright © Merto. All Rights Reserved</p>
+          <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/payment-icons-1.png" alt="" class="payment-icons">
+          </div>
+          </footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
